@@ -9,6 +9,7 @@
 #import "Dog.h"
 #import "Comparative.h"
 #import "NSObject+Sort.h"
+#import "DogSpeedComparative.h"
 @interface Dog ()<Comparative>
 
 @end
@@ -25,19 +26,8 @@
 
 - (NSInteger)comparativeTo:(id)object
 {
-    Dog *dog = (Dog *)object;
-    if (self.speed>dog.speed) {
-        return 1;
-    }
-    else if (self.speed==dog.speed)
-    {
-        return 0;
-    }
-    else if (self.speed<dog.speed)
-    {
-        return -1;
-    }
-    return -100;
+    
+    return [DogSpeedComparative comparativeFrom:self To:object];
 
 }
 

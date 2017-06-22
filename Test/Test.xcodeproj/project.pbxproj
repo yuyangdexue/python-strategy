@@ -17,6 +17,9 @@
 		26CB14CF1EFB770900A7E85C /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB14CE1EFB770900A7E85C /* Cat.m */; };
 		26CB14D61EFB7DB100A7E85C /* NSObject+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB14D51EFB7DB100A7E85C /* NSObject+Sort.m */; };
 		26CB14D91EFB8F8500A7E85C /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB14D81EFB8F8500A7E85C /* Dog.m */; };
+		26CB14DC1EFB919100A7E85C /* CatHeightComparative.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB14DB1EFB919100A7E85C /* CatHeightComparative.m */; };
+		26CB14DF1EFB939C00A7E85C /* CatWeightComparative.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB14DE1EFB939C00A7E85C /* CatWeightComparative.m */; };
+		26CB14E21EFB945000A7E85C /* DogSpeedComparative.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB14E11EFB945000A7E85C /* DogSpeedComparative.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,12 @@
 		26CB14D51EFB7DB100A7E85C /* NSObject+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sort.m"; sourceTree = "<group>"; };
 		26CB14D71EFB8F8500A7E85C /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		26CB14D81EFB8F8500A7E85C /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		26CB14DA1EFB919100A7E85C /* CatHeightComparative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatHeightComparative.h; sourceTree = "<group>"; };
+		26CB14DB1EFB919100A7E85C /* CatHeightComparative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatHeightComparative.m; sourceTree = "<group>"; };
+		26CB14DD1EFB939C00A7E85C /* CatWeightComparative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatWeightComparative.h; sourceTree = "<group>"; };
+		26CB14DE1EFB939C00A7E85C /* CatWeightComparative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatWeightComparative.m; sourceTree = "<group>"; };
+		26CB14E01EFB945000A7E85C /* DogSpeedComparative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogSpeedComparative.h; sourceTree = "<group>"; };
+		26CB14E11EFB945000A7E85C /* DogSpeedComparative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogSpeedComparative.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,12 @@
 				26CB14CE1EFB770900A7E85C /* Cat.m */,
 				26CB14D71EFB8F8500A7E85C /* Dog.h */,
 				26CB14D81EFB8F8500A7E85C /* Dog.m */,
+				26CB14E01EFB945000A7E85C /* DogSpeedComparative.h */,
+				26CB14E11EFB945000A7E85C /* DogSpeedComparative.m */,
+				26CB14DA1EFB919100A7E85C /* CatHeightComparative.h */,
+				26CB14DB1EFB919100A7E85C /* CatHeightComparative.m */,
+				26CB14DD1EFB939C00A7E85C /* CatWeightComparative.h */,
+				26CB14DE1EFB939C00A7E85C /* CatWeightComparative.m */,
 				26CB14D41EFB7DB100A7E85C /* NSObject+Sort.h */,
 				26CB14D51EFB7DB100A7E85C /* NSObject+Sort.m */,
 				26CB14BC1EFB734200A7E85C /* Main.storyboard */,
@@ -176,7 +191,10 @@
 				26CB14D61EFB7DB100A7E85C /* NSObject+Sort.m in Sources */,
 				26CB14BB1EFB734200A7E85C /* ViewController.m in Sources */,
 				26CB14B81EFB734200A7E85C /* AppDelegate.m in Sources */,
+				26CB14E21EFB945000A7E85C /* DogSpeedComparative.m in Sources */,
 				26CB14D91EFB8F8500A7E85C /* Dog.m in Sources */,
+				26CB14DC1EFB919100A7E85C /* CatHeightComparative.m in Sources */,
+				26CB14DF1EFB939C00A7E85C /* CatWeightComparative.m in Sources */,
 				26CB14B51EFB734200A7E85C /* main.m in Sources */,
 				26CB14CF1EFB770900A7E85C /* Cat.m in Sources */,
 			);
@@ -337,6 +355,7 @@
 				26CB14C91EFB734200A7E85C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

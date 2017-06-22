@@ -9,8 +9,11 @@
 #import "Cat.h"
 #import "Comparative.h"
 #import "NSObject+Sort.h"
+#import "CatHeightComparative.h" //按照身高排序
+#import "CatWeightComparative.h" // 按照体重排序
 @interface Cat ()<Comparative>
 
+@property (nonatomic,strong)CatHeightComparative *catHeightComparative;
 
 @end
 @implementation Cat
@@ -20,25 +23,15 @@
     self = [super init];
     if (!self) return nil;
     self.comparative =self;
+
+    self.catHeightComparative =[[CatHeightComparative alloc]init];
     return self;
 }
 
 
 - (NSInteger)comparativeTo:(id) object
 {
-    Cat *cat = (Cat *)object;
-    if (self.height>cat.height) {
-        return 1;
-    }
-    else if (self.height==cat.height)
-    {
-        return 0;
-    }
-    else if (self.height<cat.height)
-    {
-        return -1;
-    }
-    return -100;
+    return [self.catHeightComparative comparativeFrom:self To:object];
 }
 
 
